@@ -60,7 +60,7 @@ const Blog = () => {
       title:
         "The Importance of Clean Code: Best Practices for Writing Maintainable Code",
       date: "October 15, 2024",
-      content: ` Best Practices for Writing Maintainable Code":
+      content: `The Best Practices for Writing Maintainable Code":
 
 The Importance of Clean Code: Best Practices for Writing Maintainable Code
 When I first started coding, I was so focused on getting things to work that I often overlooked how my code looked. But as I progressed in my journey, I realized that writing clean, maintainable code is just as important as the functionality itself. Let me share why clean code matters and some of the best practices I’ve picked up along the way.
