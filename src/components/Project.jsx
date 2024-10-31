@@ -1,10 +1,11 @@
 import React from "react";
-import screenshotImage from "../assets/Screenshot 2024-10-25 171320.png"; 
-import backgroundImage from "../assets/Screenshot 2024-10-25 155728.png"; 
-import screenshotimage from "../assets/Screenshot 2024-10-26 095701.png"
+import screenshotImage from "../assets/Screenshot 2024-10-29 165159.png"; 
+import backgroundImage from "../assets/Screenshot 2024-10-29 165739.png"; 
+import screenshotimage from "../assets/Screenshot 2024-10-29 164821.png"
 import certificate from "../assets/certificate.jpg"; 
 import certificate2 from "../assets/1727672267086-certificate (1).png"; 
 import Navbar2 from "./Navbar2";
+import Blog from "./Blog";
 
 const Project = () => {
   return (
@@ -40,9 +41,7 @@ const Project = () => {
             <p>
             My interactive portfolio site designed to highlight my skills, projects, and experiences as a web developer. The site features a modern UI with animations and an engaging user experience.
             </p>
-            <a href="#" className="btn btn-outline-primary stretched-link">
-              Currently You are here
-            </a>
+         
           </div>
         </div>
 
@@ -82,7 +81,7 @@ const Project = () => {
         </div>
 
         {/* Certificate 2 */}
-        <div className="card shadow" style={{ width: '18rem', height: "50vh" }}>
+        <div className="card shadow" style={{ width: '18rem', height: "60vh" }}>
           <img src={certificate2} className="card-img-top" alt="Certificate 2" style={{ height: "40vh", objectFit: "cover" }} />
           <div className="card-body">
             <h5 className="card-title">Certification of Completing a React-Redux Course</h5>
@@ -90,7 +89,7 @@ const Project = () => {
         </div>
       </div>
 
-      {/* CSS Styles */}
+  
       <style>
         {`
           h1, h2 {

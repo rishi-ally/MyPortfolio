@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'react-lottie';
-import skillanimation from '../assets/Animation - 1729857818578.json';
+import skillanimation from '../assets/Animation - 1729945073886.json';
 const SkillAnimation = () => {
     const defaultOptions = {
         loop: true,
@@ -15,7 +15,7 @@ const SkillAnimation = () => {
     
       return (<>
     
-        <div style={{ width: '500px', height: '500px' }}>
+        <div style={{  height: '500px' }}>
           <Lottie options={defaultOptions} />
         </div></>
       );

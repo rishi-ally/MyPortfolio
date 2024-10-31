@@ -19,7 +19,7 @@ const Contact = () => {
 
             if (response.ok) {
                 alert('Message sent successfully!');
-                form.current.reset(); // Reset the form fields
+                form.current.reset(); 
             } else {
                 alert('There was an error sending your message.');
             }

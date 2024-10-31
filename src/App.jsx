@@ -7,18 +7,22 @@ import Project from './components/Project';
 import Skill from './components/Skill';
 import Contact from './components/Contact';
 import Navbar2 from './components/Navbar2';
+import Blog from './components/Blog';
+import BlogPageToShow from './components/BlogPageToShow';
 
 function App() {
     return (
-        <Router>
+        <Router> <div className="container-fluid">
             <Navbar2 />
-            <div className="container-fluid">
+           
                 <Routes>
                     <Route path="/" element={<StartingPage />} />
                     <Route path="/about" element={<Hero />} />
                     <Route path="/projects" element={<Project />} />
                     <Route path="/skills" element={<Skill />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/Blog" element={<Blog />} />
+                    <Route path="/BlogPage" element={<BlogPageToShow />} />
                 </Routes>
             </div>
         </Router>

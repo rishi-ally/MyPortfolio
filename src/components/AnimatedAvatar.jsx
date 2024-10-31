@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Lottie from 'react-lottie';
-import Animation from '../assets/Animation - 1729845408019.json';
-
+import Animation from '../assets/Animation - 1730092866482.json';
 
 const AnimatedAvatar = () => {
   const defaultOptions = {
@@ -13,13 +12,10 @@ const AnimatedAvatar = () => {
     }
   };
 
-
-
-  return (<>
-
-    <div style={{ width: '500px', height: '500px' }}>
+  return (
+    <div className="avatar-container" style={{ width: '100%', maxWidth: '500px', height: 'auto' }}>
       <Lottie options={defaultOptions} />
-    </div></>
+    </div>
   );
 };
 
