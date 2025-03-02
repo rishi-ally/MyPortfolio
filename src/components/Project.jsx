@@ -1,9 +1,11 @@
 import React from "react";
 import screenshotImage from "../assets/Screenshot 2024-10-29 165159.png"; 
 import backgroundImage from "../assets/Screenshot 2024-10-29 165739.png"; 
-import screenshotimage from "../assets/Screenshot 2024-10-29 164821.png"
+import screenshotimage from "../assets/Screenshot 2024-10-29 164821.png";
+import newimage from "../assets/Screenshot 2025-02-28 162922.png";
 import certificate from "../assets/certificate.jpg"; 
 import certificate2 from "../assets/1727672267086-certificate (1).png"; 
+import certificate3 from "../assets/Screenshot 2025-03-01 182020.png"
 import Navbar2 from "./Navbar2";
 import Blog from "./Blog";
 
@@ -65,29 +67,65 @@ const Project = () => {
             </a>
           </div>
         </div>
-      </div>
 
-      <h2 className="text-black text-center my-5" style={{backgroundColor: "cornsilk", padding: "10px"}}>
-        HALL OF FAME
-      </h2>
+        <div className="row g-0 bg-light shadow-sm rounded position-relative mb-4">
+          <div className="col-md-6 mb-md-0 p-0">
+            <img src={newimage} className="w-100 rounded-start" alt="Background" />
+          </div>
+          <div className="col-md-6 p-4">
+          <h5 className="mt-0 fw-bold text-primary">A Full Responsive Modern Real Estate Platform for Seamless Property Listings</h5>  
 
-      <div className="d-flex justify-content-around flex-wrap mb-5">
-        {/* Certificate 1 */}
-        <div className="card shadow" style={{ width: '18rem', height: "70vh" }}>
-          <img src={certificate} className="card-img-top" alt="Certificate" style={{ height: "50vh"}} />
-          <div className="card-body">
-            <h5 className="card-title">Certified for Ranking in Coding Ninjas Tri Color Code Fest</h5>
+<p>  
+  Developed a feature-rich real estate platform that allows users to explore, list, and manage properties effortlessly.  
+  The platform includes secure authentication, property search with filters, and an intuitive dashboard for users to add  
+  or edit their listings. With smooth animations and interactive elements, the website offers a seamless user experience.  
+  Additionally, it supports image uploads for property listings, enhancing the visual appeal and credibility of the platform.  
+</p>  
+
+            <a href="https://drive.google.com/file/d/1jaV3CAZ6IVO0tal-wYEEgWEYa3eAC1Lk/view?usp=sharing" className="btn btn-outline-primary stretched-link">
+              Explore this project ➡️
+            </a>
           </div>
         </div>
+      </div>
 
-        {/* Certificate 2 */}
-        <div className="card shadow" style={{ width: '18rem', height: "60vh" }}>
-          <img src={certificate2} className="card-img-top" alt="Certificate 2" style={{ height: "40vh", objectFit: "cover" }} />
-          <div className="card-body">
-            <h5 className="card-title">Certification of Completing a React-Redux Course</h5>
-          </div>
+      <div className="container-fluid text-center my-5">
+  <h2 className="text-black py-3" style={{ backgroundColor: "cornsilk" }}>
+    HALL OF FAME
+  </h2>
+
+  <div className="row justify-content-center">
+    {/* Certificate 1 */}
+    <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+      <div className="card shadow" style={{ width: '18rem' }}>
+        <img src={certificate} className="card-img-top" alt="Certificate" style={{ height: "250px", objectFit: "cover" }} />
+        <div className="card-body">
+          <h5 className="card-title">Certified for Ranking in Coding Ninjas Tri Color Code Fest</h5>
         </div>
       </div>
+    </div>
+
+    {/* Certificate 2 */}
+    <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+      <div className="card shadow" style={{ width: '18rem' }}>
+        <img src={certificate3} className="card-img-top" alt="Certificate" style={{ height: "250px", objectFit: "cover" }} />
+        <div className="card-body">
+          <h5 className="card-title">FreeCodeCamp Certified</h5>
+        </div>
+      </div>
+    </div>
+
+    {/* Certificate 3 */}
+    <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+      <div className="card shadow" style={{ width: '18rem' }}>
+        <img src={certificate2} className="card-img-top" alt="Certificate" style={{ height: "250px", objectFit: "cover" }} />
+        <div className="card-body">
+          <h5 className="card-title">Certification of Completing a React-Redux Course</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   
       <style>

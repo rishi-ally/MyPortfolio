@@ -61,7 +61,7 @@ const Navbar = () => {
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", padding: "10px" }}>
         <p className="fs-3">Hover to scare me!</p>
         <a
-          href="/MyPortfolio/MyResume.pdf"  
+          href="/MyPortfolio/organized-cropped (1).pdf"  
           download="MyResume.pdf" 
           style={{
             backgroundColor: "#E1306C",
